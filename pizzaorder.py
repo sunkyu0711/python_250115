@@ -40,15 +40,12 @@ if __name__=='__main__':
                 '사이다':1500,
                 '생수':1000}
 
-    # 주문
     pizza_order = Order(pizza_menu,'피자')
     print(pizza_order)
     drink_order = Order(drink_menu,'음료수')
     print(drink_order)
 
-    # 계산
     pizza_price=Money(pizza_order,pizza_menu,'피자')
     drink_price=Money(drink_order,drink_menu,'음료수')
 
     print(f'전체 가격: {pizza_price+drink_price:,}원')
-
