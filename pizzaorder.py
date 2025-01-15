@@ -52,37 +52,3 @@ if __name__=='__main__':
 
     print(f'전체 가격: {pizza_price+drink_price:,}원')
 
-    
-
-
-
-
-    # drink_price=0
-    # print('주문 내역:')
-    # for drink in dorder:
-    #     print(f'- {drink} ({dmenu[drink]}원) x {dorder[drink]} = {int(dmenu[drink])*int(dorder[drink])}원')
-    #     drink_price=drink_price+(int(dmenu[drink])*int(dorder[drink]))
-    # print(f'총 금액: {drink_price}원')
-
-    # Drink()
-
-# if __name__=='__main__':
-#     pmenu, porder=Pizza()
-#     dmenu, dorder=Drink()
-
-#     pizza_price=0
-#     print('='*25)
-#     print('주문 내역:')
-#     for pizza in porder:
-#         print(f'- {pizza} ({pmenu[pizza]}원) x {porder[pizza]} = {int(pmenu[pizza])*int(porder[pizza])}원')
-#         pizza_price=pizza_price+(int(pmenu[pizza])*int(porder[pizza]))
-
-#     print(f'총 금액: {pizza_price}원')
-
-
-    # drink_price=0
-    # print('주문 내역:')
-    # for drink in dorder:
-    #     print(f'- {drink} ({dmenu[drink]}원) x {dorder[drink]} = {int(dmenu[drink])*int(dorder[drink])}원')
-    #     drink_price=drink_price+(int(dmenu[drink])*int(dorder[drink]))
-    # print(f'총 금액: {drink_price}원')
