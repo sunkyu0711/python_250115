@@ -21,4 +21,4 @@ print(drink_order)
 pizza_price=Money(pizza_order,pizza_menu,'피자')
 drink_price=Money(drink_order,drink_menu,'음료수')
 
-print(f'전체 가격: {pizza_price+drink_price:,}원')
+print(f'\n전체 가격: {pizza_price+drink_price:,}원')
