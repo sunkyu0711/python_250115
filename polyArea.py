@@ -1,5 +1,5 @@
-def rectArea(width,height):
-    return width*height
+def rectArea(width,depth):
+    return width*depth
 
 def triArea(base,height):
     return base*height/2
